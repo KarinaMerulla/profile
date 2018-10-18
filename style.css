@@ -1,0 +1,124 @@
+body {
+  background-color: #EEEEEE;
+  font-family: 'Khand', sans-serif;
+  font-size: 16px;
+  color: #393e46;
+  margin: 50px 255px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Khand', sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #4a0e5c;
+  line-height: 0.1;
+
+
+}
+/* my favorite albums */
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #7c4789;
+
+
+}
+/* subtitulo */
+h3 {
+  font-size: 30px;
+  font-weight: 250;
+  color: #bca3ca;
+  line-height: 0.1;
+
+}
+
+a {
+  text-decoration: none;
+  color: #4a0e5c;
+}
+
+a:hover {
+  color:#bca3ca;
+}
+
+#karina-circle {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.container, .text-center {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background: white;
+  padding: 50px;
+  margin: 25px;
+  border-radius: 5px;
+  margin-bottom: 11px;
+}
+
+.list-inline{
+  /*pl0 + tab*/
+  padding-left: 0;
+  padding-right: 0;
+  background: white;
+  /* padding: 0px; */
+  margin: 25px;
+  border-radius: 5px;
+  margin-top:11px;
+  margin-bottom: 11px;
+  font-size: 20px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.text-center {
+  background: white;
+  margin: 24px;
+  padding: 52px;
+  /* margin-top: 11px;
+   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;*/
+}
+
+.album-cover {
+  width: 200px;
+  height: 200px;
+}
+
+/* para tirar os bullet points da lista */
+li {
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
