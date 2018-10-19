@@ -88,10 +88,7 @@ a:hover {
   margin: 24px;
   padding: 52px;
   border: 1px solid #543e5c
-  /* margin-top: 11px;
-   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;*/
+
 }
 
 .album-cover {
@@ -120,9 +117,6 @@ a:hover {
   height: 184px;
 }
 
-.card{
-
-}
 
 /* para tirar os bullet points da lista */
 li {
